@@ -1,0 +1,13 @@
+categories:
+- scenarios
+conversations:
+- - I need a Gateman
+  - Click on the menu Options,click on Manage Gateman and then click on the add new gateman button.
+- - I don't have a gateman
+  - Click on the menu Options,click on Manage Gateman and then click on the add new gateman button.
+- - Nobody to seem visitors
+  -  Click on the menu Options,click on Manage Gateman and then click on the add new gateman button.
+- - I have a visitor
+  - How to Schedule Visits:You schedule a visit by adding a visitor, you can do this by clicking on the visitor bottom menu.
+- - I don't get notification
+  - Click on the menu Options, Go to Settings and toggle the turn notifications Icon.
