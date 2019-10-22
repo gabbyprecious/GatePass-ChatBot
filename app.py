@@ -31,20 +31,20 @@ ENGLISH_BOT = ChatBot("Chatterbot",
 TRAINER = ChatterBotCorpusTrainer(ENGLISH_BOT)
 
 # For training Custom corpus data
-TRAINER.train("./data/mycorpus/")
+#TRAINER.train("./data/mycorpus/")
 
 # For training English corpus data
-TRAINER.train('chatterbot.corpus.english')
+#TRAINER.train('chatterbot.corpus.english')
 
 # For training list of conversations
-TRAINER_LIST = ListTrainer(ENGLISH_BOT)
-TRAINER_LIST.train([
-     "How are you?",
-     "I am good.",
-     "That is good to hear.",
-     "Thank you",
-     "You are welcome.",
- ])
+#TRAINER_LIST = ListTrainer(ENGLISH_BOT)
+#TRAINER_LIST.train([
+#     "How are you?",
+#     "I am good.",
+#     "That is good to hear.",
+#     "Thank you",
+#     "You are welcome.",
+# ])
 
 @APP.route("/")
 def home():
